@@ -13,9 +13,9 @@ namespace CalendarQuickstart
     {
         static void Main(string[] args)
         {
-            string jsonFile = "sitesh-368508-168d9d075231.json";
+            string jsonFile = "sitesh-368508-168d9d075231.json"; //replace with your json file
 
-            string calendarId = @"sitesh2015@gmail.com";
+            string calendarId = @"sitesh2015@gmail.com"; //replace with your calendar id
 
             string[] Scopes = { CalendarService.Scope.Calendar };
 
